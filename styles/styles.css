@@ -1,0 +1,87 @@
+header {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: antiquewhite;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+form input {
+  margin: 1rem;
+  padding: .5rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+#description {
+  border: none;
+  min-width: 80%;
+  margin: 1rem;
+  padding: .5rem;
+  border-radius: 1rem;
+}
+
+button {
+  padding: .5rem 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  border: none;
+  color: aliceblue;
+  background-color: forestgreen;
+}
+
+.deleteBtn {
+  background-color: crimson;
+}
+
+.editBtn {
+  background-color: darkgray;
+}
+
+.itemCard {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+  margin: 1rem;
+  padding: 0 1rem;
+  border-radius: 1rem;
+}
+
+.card-head {
+  text-align: center;
+  width: 20%;
+}
+
+.card-head > h3 {
+  font-size: x-large;
+}
+
+.card-head > p {
+  color: goldenrod;
+  font-size: larger;
+}
+
+.card-description {
+  width: 50%;
+}
+
+#newDescription {
+  border: none;
+  min-width: 60%;
+  margin: 1rem;
+  padding: .5rem;
+  border-radius: 1rem;
+}
+
+.fav {
+  background-color: navajowhite;
+}
